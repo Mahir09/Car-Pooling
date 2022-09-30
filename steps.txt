@@ -77,4 +77,16 @@ npm install -g @sanity/client
 https://api.mapbox.com/geocoding/v5/mapbox.places
 
 
+## How to run this project
+
+Terminal 1 :
+vercel dev
+
+Terminal 2 : 
+cd studio
+sanity start
+
+
+
+
 
