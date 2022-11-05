@@ -62,7 +62,7 @@ const LocationSelector = () => {
               </div>
               <input
                 className={style.input}
-                placeholder='Where to?'
+                placeholder='Enter destination location'
                 value={dropoff}
                 onChange={e => setDropoff(e.target.value)}
                 onFocus={() => setInFocus('to')}

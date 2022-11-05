@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useEffect, useContext, useState } from 'react'
 import Image from 'next/image'
 
@@ -81,7 +82,7 @@ const RideSelector = () => {
                     <div className={style.price}>
                     {((basePrice / 10 ** 5) * car.priceMultiplier).toFixed(5)}
                     </div>
-                    <Image src={ethLogo} height={25} width={40} />
+                    {/* <Image src={ethLogo} height={25} width={40} /> */}
                 </div>
                 </div>
             ))}

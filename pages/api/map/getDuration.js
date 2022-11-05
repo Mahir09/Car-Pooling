@@ -4,6 +4,7 @@ const getDuration = async (req, res) => {
     try {
       const response = await fetch(mapboxUrl)
       const data = await response.json()
+      // console.log('Duration',data.routes[0].duration)
   
       res.status(200).send({ message: 'success', data: data.routes[0].duration })
     } catch (error) {

@@ -28,14 +28,14 @@ const Navbar = () => {
         <div className={style.wrapper}>
 
         <div className={style.leftMenu}>
-            <div className={style.logo}>Uber</div>
-            <div className={style.menuItem}>Ride</div>
-            <div className={style.menuItem}>Drive</div>
-            <div className={style.menuItem}>More</div>
+            <div className={style.logo}>Journey</div>
+            {/* <div className={style.menuItem}>Ride</div> */}
+            {/* <div className={style.menuItem}>Drive</div> */}
+            {/* <div className={style.menuItem}>More</div> */}
         </div>
 
         <div className={style.rightMenu}>
-            <div className={style.menuItem}>Help</div>
+            {/* <div className={style.menuItem}>Help</div> */}
             <div className={style.menuItem}>{currentUser.name?.split(' ')[0]}</div>
             <div className={style.userImageContainer}>
                 <Image

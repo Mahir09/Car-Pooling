@@ -67,7 +67,7 @@ const Confirm = () => {
                         className={style.confirmButton}
                         onClick={() => storeTripDetails(pickup, dropoff)}
                     >
-                        Confirm  {selectedRide.service || 'UberX'}
+                        Confirm  {selectedRide.service || ''}
                     </div>
                 </div>
             </div>
