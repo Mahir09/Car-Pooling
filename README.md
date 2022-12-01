@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Blog [https://mahirshekh.wordpress.com/2022/11/03/ride-booking-using-cryptocurrency-pay/]
+
 First, run the development server (Terminal 1):
 
 ```bash
